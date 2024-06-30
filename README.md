@@ -5,19 +5,19 @@ The Invoice Generation System is designed to facilitate accurate invoicing betwe
 
 ### Features
 Client Types:
-Individual (physical person)
-Company (legal entity)
-Service Provider: Always a company (legal entity)
+- Individual (physical person)
+- Company (legal entity)
+- Service Provider: Always a company (legal entity)
 
 VAT Calculation:
-Non-VAT registered service providers do not charge VAT.
-VAT registered service providers apply VAT based on the client's location.
+- Non-VAT registered service providers do not charge VAT.
+- VAT registered service providers apply VAT based on the client's location.
 VAT Scenarios
-Service Provider is not VAT Registered: No VAT is charged on the order amount.
-Service Provider is VAT Registered:
-Client Outside the EU: VAT rate is 0%.
-Client within the EU but in a Different Country: VAT rate is the percentage applicable in the client's country. For example, in Lithuania, the VAT rate is 21%.
-Client and Service Provider in the Same Country: The applicable VAT rate of that country is always applied.
+- Service Provider is not VAT Registered: No VAT is charged on the order amount.
+- Service Provider is VAT Registered:
+  - Client Outside the EU: VAT rate is 0%.
+  - Client within the EU but in a Different Country: VAT rate is the percentage applicable in the client's country. For example, in Lithuania, the VAT rate is 21%.
+  - Client and Service Provider in the Same Country: The applicable VAT rate of that country is always applied.
 
 ### Main function
 
